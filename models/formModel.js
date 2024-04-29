@@ -16,7 +16,6 @@ const formSchema= new mongoose.Schema({
     ref:"questions"
    },
    responses:[Schema.Types.Mixed],
-
 })
 
 export default mongoose.model("forms",formSchema,"forms");
